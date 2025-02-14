@@ -74,7 +74,7 @@ python3 -m pip install sqlite3 tqdm prettytable -i https://mirrors.aliyun.com/py
 ("弱口令_ruoyi", re.compile(r"\bruoyi\b")),
 ("弱口令_iloveyou", re.compile(r"\biloveyou\b")),
 ("弱口令_admin", re.compile(r"\badmin\b")),
-("弱口令_root", re.compile(r"\broot\b")),
+# ("弱口令_root", re.compile(r"\broot\b")), # 误报太多
 ("弱口令_password", re.compile(r"\bpassword\b")),
 ("AWS AK", re.compile(r'^AKIA[A-Za-z0-9]{16}$')),
 ("GoogleCloudPlatform", re.compile(r'^GOOG[\w\W]{10,30}$')),

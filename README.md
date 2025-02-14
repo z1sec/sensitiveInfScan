@@ -97,3 +97,8 @@ python3 -m pip install sqlite3 tqdm prettytable -i https://mirrors.aliyun.com/py
 ("南大通用云", re.compile(r'^CI[A-Za-z0-9]{10,40}$')),
 ("G-Core Labs", re.compile(r'^gcore[A-Za-z0-9]{10,30}$')),
 ```
+
+# 最后欢迎关注Z1SEC
+欢迎关注：
+![qrcode_for_gh_62c0b546672f_258](https://github.com/user-attachments/assets/92da191c-997f-4f83-b89a-23cdfd0d3543)
+
